@@ -15,17 +15,14 @@
         <statement name="DO">
           <block type="movement_forward" id="5">
             <next>
-              <block type="movement_stop" id="6"></block>
+              <block type="movement_left" id="7"></block>
             </next>
           </block>
         </statement>
-        <next>
-          <block type="movement_left" id="7"></block>
-        </next>
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="17"></block>
+      <block type="movement_stop" id="8"></block>
     </next>
   </block>
 </xml>
