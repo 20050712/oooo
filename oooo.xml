@@ -16,12 +16,16 @@
           <block type="movement_forward" id="5"></block>
         </statement>
         <next>
-          <block type="movement_right" id="18" collapsed="true"></block>
+          <block type="movement_stop" id="17">
+            <next>
+              <block type="movement_right" id="6" collapsed="true"></block>
+            </next>
+          </block>
         </next>
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="8"></block>
+      <block type="movement_stop" id="7"></block>
     </next>
   </block>
 </xml>
