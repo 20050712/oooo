@@ -9,15 +9,16 @@
       <block type="controls_repeat" id="17" inline="true">
         <value name="TIMES">
           <block type="math_number" id="24">
-            <field name="NUM">115000</field>
+            <field name="NUM">110000</field>
           </block>
         </value>
         <statement name="DO">
-          <block type="movement_forward" id="10"></block>
+          <block type="movement_forward" id="10">
+            <next>
+              <block type="movement_left" id="43"></block>
+            </next>
+          </block>
         </statement>
-        <next>
-          <block type="movement_left" id="43"></block>
-        </next>
       </block>
     </statement>
     <next>
