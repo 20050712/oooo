@@ -16,7 +16,7 @@
           <block type="movement_forward" id="5"></block>
         </statement>
         <next>
-          <block type="movement_right" id="18"></block>
+          <block type="movement_right" id="18" collapsed="true"></block>
         </next>
       </block>
     </statement>
