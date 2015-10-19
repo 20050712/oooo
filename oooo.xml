@@ -13,15 +13,16 @@
           </block>
         </value>
         <statement name="DO">
-          <block type="movement_forward" id="117"></block>
-        </statement>
-        <next>
-          <block type="movement_stop" id="156">
+          <block type="movement_forward" id="117">
             <next>
-              <block type="movement_left" id="166"></block>
+              <block type="movement_stop" id="156">
+                <next>
+                  <block type="movement_left" id="166"></block>
+                </next>
+              </block>
             </next>
           </block>
-        </next>
+        </statement>
       </block>
     </statement>
   </block>
